@@ -1,4 +1,4 @@
-go_gae-template - Golang project template for Google App Engine
+Golang project template for Google App Engine
 ===============
 Golang import path resolution might be quite confusing to newcomers and it gets even more so when you try to run on Google App Engine. This project template and setup guide should help programmers to start coding and deploying from day one.
 
@@ -8,9 +8,18 @@ Golang import path resolution might be quite confusing to newcomers and it gets 
 * unit testing
 
 #Setup
+  I assume that Google App Engine Go SDK & Go SDK are installed and required folders are added to your PATH.
+  * [http://golang.org/doc/install](http://golang.org/doc/install)
+  * [https://developers.google.com/appengine/downloads](https://developers.google.com/appengine/downloads)
+
+## Folder structure
+  TODO
+
+## App name
+Open app.yaml and change "application: test" to "application: myAppName"
 
 #Runing
-cd to app folder and execute:
+cd to app folder (folder with app.yaml file) and execute:
 ```bash
 goapp serve
 ```
